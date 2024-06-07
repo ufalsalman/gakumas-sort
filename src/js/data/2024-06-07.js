@@ -20,38 +20,65 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Saki Hanami",
     img: "saki.png",
+    opts: {
+
+    }
   },
   {
     name: "Temari Tsukimura",
     img: "temari.png",
+    opts: {
+
+    }
   },
   {
     name: "Kotone Fujita",
     img: "kotone.png",
+    opts: {
+
+    }
   },
   {
     name: "Mao Arimura",
     img: "mao.png",
+    opts: {
+
+    }
   },
   {
     name: "Lilja Katsuragi",
     img: "lilja.png",
+    opts: {
+
+    }
   },
   {
     name: "China Kuramoto",
     img: "china.png",
+    opts: {
+
+    }
   },
   {
     name: "Sumika Shiun",
     img: "sumika.png",
+    opts: {
+
+    }
   },
   {
     name: "Hiro Shinosawa",
     img: "hiro.png",
+    opts: {
+
+    }
   },
   {
     name: "Rinami Himesaki",
     img: "rinami.png",
+    opts: {
+
+    }
   },
   {
     name: "Ume Hanami",
