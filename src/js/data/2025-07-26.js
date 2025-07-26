@@ -1,4 +1,4 @@
-dataSetVersion = "2024-06-07"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2025-07-26"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -14,6 +14,12 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to exclude school staffs.",
     checked: false
   },
+  {
+    name: "Exclude Gokugetsu Gakuen idols",
+    key: "gokugestu",
+    tooltip: "Check this to exclude Gokugetsu Gakuen idols.",
+    checked: false
+  }
 ];
 
 dataSet[dataSetVersion].characterData = [
@@ -84,21 +90,25 @@ dataSet[dataSetVersion].characterData = [
     name: "Ume Hanami",
     img: "ume.png",
     opts: {
-      rival: true
     }
   },
   {
     name: "Misuzu Hataya",
     img: "misuzu.png",
     opts: {
-      rival: true
     }
   },
   {
     name: "Sena Juo",
     img: "sena.png",
     opts: {
-      rival: true
+    }
+  },
+  {
+    name: "Tsubame Amaya",
+    img: "tsubame.png",
+    opts: {
+      rivel: true
     }
   },
   {
@@ -108,4 +118,32 @@ dataSet[dataSetVersion].characterData = [
       staff: true
     }
   },
+  {
+    name: "Rinha Kaya",
+    img: "rinha.png",
+    opts: {
+      gokugetsu: true
+    } 
+  },
+  {
+    name: "Shion Shirakusa",
+    img: "shion.png",
+    opts: {
+      gokugetsu: true
+    }
+  },
+  {
+    name: "Gekka Shirakusa",
+    img: "gekka.png",
+    opts: {
+      gokugetsu: true
+    }
+  },
+  {
+    name: "Nadeshiko Aoi",
+    img: "nadeshiko.png",
+    opts: {
+      gokugetsu: true
+    }
+  }
 ]
